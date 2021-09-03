@@ -1,0 +1,18 @@
+In this code have the following linear algorithms:
+Linear Regression
+Robust Regression
+Ridge Regression
+LASSO Regression
+Elastic Net
+Polynomial Regression
+Stochastic Gradient Descent
+Artificial Neural Networks
+
+USA_Housing dataset:
+'Avg. Area Income': Сред. Доход жителей города расположен в с.
+'Avg. Area House Age': средний возраст домов в том же городе.
+'Avg. Area Number of Rooms': Среднее количество комнат в домах в том же городе
+'Avg. Area Number of Bedrooms': Среднее количество спален для домов в том же городе
+'Area Population': Население городского дома находится в
+'Price': цена, по которой продается дом.
+'Address': Адрес дома.

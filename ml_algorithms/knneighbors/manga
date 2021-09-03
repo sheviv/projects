@@ -1,0 +1,5 @@
+KNNeighbors
+K Nearest Neighbors Project(Universities classification - Private vs Public)
+
+Новый экземпляра(x) классифицируется путем поиска по всему набору K похожих экземпляров(соседей)
+и суммирования выходной переменной для этих K экземпляров, используется мера расстояния.
