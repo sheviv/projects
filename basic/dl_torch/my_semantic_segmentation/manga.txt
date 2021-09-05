@@ -1,3 +1,0 @@
-# launch segmentation by web-cam(id_web_cam)
-python3 my_segment_vid.py --id id_web_cam
-python3 my_segment_vid.py --id 0
