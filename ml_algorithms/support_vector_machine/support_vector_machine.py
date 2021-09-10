@@ -81,7 +81,7 @@ from sklearn.svm import LinearSVC
 # Polynomial Kernel SVM
 from sklearn.svm import SVC
 # Гиперпараметр coef0 контролирует, насколько модель подвержена влиянию многочленов высокой степени.
-# model = SVC(kernel='poly', degree=2, gamma='auto', coef0=1, C=5)
+# model = SVC(kernel='poly', degree=2, gamma='weather_forecasting', coef0=1, C=5)
 # model.fit(X_train, y_train)
 # print_score(model, X_train, y_train, X_test, y_test, train=True)
 # print_score(model, X_train, y_train, X_test, y_test, train=False)
@@ -104,7 +104,7 @@ Data Preparation for SVM
 # print_score(model, X_train, y_train, X_test, y_test, train=False)
 # print("=======================Polynomial Kernel SVM==========================")
 # from sklearn.svm import SVC
-# model = SVC(kernel='poly', degree=2, gamma='auto')
+# model = SVC(kernel='poly', degree=2, gamma='weather_forecasting')
 # model.fit(X_train, y_train)
 # print_score(model, X_train, y_train, X_test, y_test, train=True)
 # print_score(model, X_train, y_train, X_test, y_test, train=False)

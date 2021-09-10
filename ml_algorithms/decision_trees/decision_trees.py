@@ -127,7 +127,7 @@ Random Forest hyper parameter tuning
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import RandomizedSearchCV
 # n_estimators = [int(x) for x in np.linspace(start=200, stop=2000, num=10)]
-# max_features = ['auto', 'sqrt']
+# max_features = ['weather_forecasting', 'sqrt']
 # max_depth = [int(x) for x in np.linspace(10, 110, num=11)]
 # max_depth.append(None)
 # min_samples_split = [2, 5, 10]
@@ -155,7 +155,7 @@ from sklearn.model_selection import RandomizedSearchCV
 # Grid Search Cross Validation
 # Подбор лучшей комбинации параметров для алгоритма
 n_estimators = [100, 500, 1000, 1500]
-max_features = ['auto', 'sqrt']
+max_features = ['weather_forecasting', 'sqrt']
 max_depth = [2, 3, 5]
 max_depth.append(None)
 min_samples_split = [2, 5, 10]
@@ -175,5 +175,5 @@ rf_clf = RandomForestClassifier(**best_params)
 rf_clf.fit(X_train, y_train)
 print_score(rf_clf, X_train, y_train, X_test, y_test, train=True)
 print_score(rf_clf, X_train, y_train, X_test, y_test, train=False)
-# Вывод: Best parameters: {'bootstrap': False, 'max_depth': None, 'max_features': 'auto',
+# Вывод: Best parameters: {'bootstrap': False, 'max_depth': None, 'max_features': 'weather_forecasting',
 # 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 1500}
